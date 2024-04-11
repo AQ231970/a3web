@@ -8,12 +8,12 @@ Group Bio End ***/
 
 /*** Chloe body choices***/
 body {
-	background-color: #F0F8FF; 
+	background-color: rgb(236, 232, 180); 
 	font-family: Arial;
 }
 /*** Mengyuan input start ***/
 .backgroundheader1 { /* the background image for the header on index.html*/
-	background-image: url("img/istockphoto-1388031661-612x612.jpg");
+	background-image: url("img/images.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
 	background-repeat: no-repeat; /* https://w3schools.com/css/css_background.asp, for css */
 	background-position: center top; /* https://w3schools.com/css/css_background.asp, for css */
@@ -31,8 +31,8 @@ body {
 	/* display and padding add the background colour around the text to only be around the text */
 	display: inline-block; /* https://w3schools.com/css/css_inline-block.asp */
 	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.7);
-	color: rgb(30, 79, 119);
+	background-color: rgb(230, 173, 220, 0.7);
+	color: rgb(230, 173, 220);
 	font-size: 20px;
 	/* font family provide a series of font types as a 'fallback' incase a browser doesn't support the initial selected font, prefer Arial but worst case the browser will choose it's own font in the monospace text family */
 }
@@ -53,13 +53,13 @@ nav{
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-between;
-	 background-color: rgb(30, 79, 119);
+	 background-color: rgb(119, 30, 104);
 	 position: sticky;
 	 top: 251px;
 	 padding: 15px 25px;
 	 font-size: 20px;
 	 backdrop-filter: blur(8px);
-	 box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+	 box-shadow: 0 20px 30px rgb(61, 30, 119);
  }
 
 .navbar_container {
@@ -69,7 +69,7 @@ nav{
 
 ul .nav-menu{
 	width: 90%;
-	background-color: rgb(30, 79, 119);
+	background-color: rgb(119, 30, 104);
 	margin: auto;
  }
 
@@ -87,7 +87,7 @@ ul .nav-menu{
 li{
 	list-style: none;
 	display: inline-block;
-	background-color: rgb(30, 79, 119);
+	background-color: rgb(119, 30, 104);
 	justify-content: space-between;
  }
 li a{
@@ -104,23 +104,23 @@ nav a{
 	letter-spacing: 1px;
 	text-decoration: none;
 	outline: none;
-	background-color: rgb(30, 79, 119);
+	background-color: rgb(119, 30, 104);
 	padding: 10px 10px;
  }
 
 #current {
 	background-color: seashell;
-	color: rgb(30, 79, 119);
+	color: rgb(76, 30, 119);
 	padding: 10px 10px;
 }
 
 nav a:hover{
-	background-color: rgb(183, 219, 255);
-	color: steelblue;
+	background-color: rgb(228, 183, 241);
+	color: rgb(119, 30, 104);
 	padding: 10px 10px;
 }
 nav a:active{
-	background-color: rgb(19, 37, 94);
+	background-color: rgb(76, 30, 119);
 	color: white;
 	padding: 10px 10px;
 }
@@ -163,7 +163,7 @@ nav a:active{
 		top: 70px;
 		gap: 0;
 		flex-direction:column;
-		background-color: rgb(30, 79, 119);
+		background-color: rgb(119, 30, 104);
 		width: 100%;
 		text-align: center;
 		transition: 0.3s
@@ -188,13 +188,13 @@ h1 {
     margin-inline-start: 2px;
     margin-inline-end: 2px;
     font-size:50px;
-    color: rgb(30, 79, 119);
+    color: rgb(65, 10, 55);
 }
 
 .titledescription{
-	color: rgb(30, 79, 119);
+	color: rgb(119, 30, 104);
 	font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin: 10px;
 }
 /*** Mengyuan input end ***/
@@ -207,7 +207,7 @@ h2{
     margin-inline-end: 2px;
     text-align: left;
     font-size: 150%;
-    color: rgb(65, 59, 59);
+    color: rgb(65, 10, 55);
   }
  
 h3{ 
@@ -216,7 +216,7 @@ h3{
     margin-inline-end: 2px;
     text-align: left;
     font-size: 120%;
-    color: rgb(112, 106, 106);
+    color: rgb(65, 10, 55);
   }
  
 h4{ 
@@ -226,7 +226,7 @@ h4{
     margin-inline-end: 2px;
     text-align: left;
     font-size: 100%;
-    color: rgb(104, 97, 97)
+    color: rgb(65, 10, 55);
   }
  
 p{ 
@@ -234,21 +234,19 @@ p{
     margin-inline-start: 2px;
     margin-inline-end: 2px;
     text-align: left;
-    color: rgb(85, 67, 52);
+    color: rgb(65, 10, 55);
     font-size: 110%;
   }
-/*** Mengjie input end ***/
 
-/*** Timeline: Mengyuan input start ***/
+
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_timeline */
 
-/* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto ;
-    color: rgb(30, 79, 119);
+    color: rgb(65, 10, 55);
   }
 
   
@@ -257,7 +255,7 @@ p{
     content: '';
     position: absolute;
     width: 6px;
-    background-color: rgb(30, 79, 119);
+    background-color: rgb(65, 10, 55);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -270,15 +268,15 @@ p{
     position: relative;
     background-color: inherit;
     width: 50%;
-	  border: 2px solid rgb(30, 79, 119);
+	  border: 2px solid rgb(65, 10, 55);
   }
 
   .container.right .content h3 {
-    color: rgb(30, 79, 119);
+    color: rgb(65, 10, 55);
     font-size: 24px;
     } 
   .container.left .content h3 {
-    color: rgb(30, 79, 119);
+    color: rgb(65, 10, 55);
     font-size: 24px;
     } 
   /* The circles on the timeline */
@@ -289,7 +287,7 @@ p{
     height: 25px;
     right: -13px;
     background-color: white;
-    border: 5px solid steelblue;
+    border: 5px solid rgb(65, 10, 55);
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -394,8 +392,8 @@ p{
 
 .field {
   border: none;
-  background-color: rgba(176, 196, 222, 0.5);
-  color: rgb(30, 79, 119);
+  background-color: rgb(241, 184, 231);
+  color: rgb(65, 10, 55);
   padding: 20px 35px;
   font-size: 16px;
 }
@@ -423,7 +421,7 @@ p{
 }
 
 .education h2 {
-	color: rgb(30, 79, 119);
+	color: rgb(65, 10, 55);
 	padding-bottom: 15px;
 	text-align: center;
 	font-size: 30px;
@@ -439,7 +437,7 @@ p{
 .range{
 	font-style: italic;
     float: right;
-	color:rgb(30, 79, 119);
+	color:rgb(65, 10, 55);
 }
 
 /*Style setting for the description under the list of education histories*/
@@ -457,7 +455,7 @@ p{
 }
 
 .wrapper .text-box h2 { 
-	color: rgb(30, 79, 119);
+	color: rgb(65, 10, 55);
 	padding-bottom: 25px;
 	padding-top: 25px;
 	text-align: center;
@@ -471,7 +469,7 @@ p{
 
 
 .wrapper .text-box p { 
-	color: rgb(30, 79, 119);
+	color: rgb(65, 10, 55);
 	line-height: 1.5;
 	padding: 2px;
 	font-size: 20px;
@@ -494,7 +492,7 @@ p{
 
 .TeamMember h2{
   text-align: center;
-  color: rgb(30, 79, 119);
+  color: rgb(65, 10, 55);
 	padding-bottom: 15px;
 	padding-top: 25px;
 	text-align: center;
@@ -681,7 +679,7 @@ input[type=text], select, textarea {
 /* Chloe input start */
 /* Disclaimer ribbon at footer of all pages */
 #disclaimertext {
-	background-color: rgb(30, 79, 119);
+	background-color: rgb(65, 10, 55);
 	color: white;
 	width: 100%;
 	padding-top: 45px;
@@ -690,7 +688,7 @@ input[type=text], select, textarea {
 
 .disclaimer  {
     height: 100px; /* Height of the overall section */
-    background-color: rgb(30, 79, 119);
+    background-color: rgb(65, 10, 55);
 	width: 100%;
     color: white;
     font-size: 15px;
@@ -754,10 +752,10 @@ input[type=text], select, textarea {
 /* For all individual pet profiles if wanted! */
 img.PetProfile {
 	float: left;
-	border: 5px solid rgb(30, 79, 119);
+	border: 5px solid rgb(65, 10, 55);
 	border-radius: 15px;
 	margin-right: 15px;
 	box-shadow: 10px 10px 25px grey;
 }
-/* Chloe input end */
+
 
