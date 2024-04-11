@@ -13,8 +13,7 @@ body {
 }
 /*** Mengyuan input start ***/
 .backgroundheader1 { /* the background image for the header on index.html*/
-	background-image: url("img/istockphoto-1388031661-612x612.jpg
-");
+	background-image: url("img/istockphoto-1388031661-612x612.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
 	background-repeat: no-repeat; /* https://w3schools.com/css/css_background.asp, for css */
 	background-position: center top; /* https://w3schools.com/css/css_background.asp, for css */
