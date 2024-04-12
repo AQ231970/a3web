@@ -42,20 +42,19 @@ body {
 table {
     border-collapse: collapse;
     width: 100%;
-	border: 2px solid #808080;
-	
 }
 
 th {
+background-color: #f2f2f2;
     padding: 15px;
     text-align: left;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #808080;
 }
 
 td {
     padding: 15px;
     text-align: left;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #808080;
 }
 
 /* https://www.youtube.com/watch?v=e5wjLZzMmYM, for css template but changed location, positioning type, added hover/active styling, and colours */
