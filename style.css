@@ -34,6 +34,10 @@ body {
 	/* font family provide a series of font types as a 'fallback' incase a browser doesn't support the initial selected font, prefer Arial but worst case the browser will choose it's own font in the monospace text family */
 }
 
+/* External link CSS  */
+.elink a{padding-left:20px; padding-right:20px; color:black;}
+.elink{margin-bottom:50px;}
+
 /* https://www.youtube.com/watch?v=e5wjLZzMmYM, for css template but changed location, positioning type, added hover/active styling, and colours */
  *,
  *:before,
