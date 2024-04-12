@@ -593,8 +593,9 @@ p{
   }
 
 /*Spacing out the text within the 2022 and 2023 section and services*/
-.PPTextBoxes { 
-    margin-top:25px
+.PPTextBoxes {
+	margin-top:25px;
+	padding-left: 25px;
   }
 
 
