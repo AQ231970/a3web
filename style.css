@@ -1,17 +1,14 @@
 /* use of the .elements idea from https://stackoverflow.com/questions/9182978/semi-transparent-color-layer-over-background-image */
 
-/*** Group Bio Start 
-- Owner : Hannah Rivet, Aysha Qureshi, Chloe Nevin, Mengjie Dai, Mengyuan Cui 
-- Date  : Dec 7
-- Description: This is our CSS file based on template from Hannah's personal website
+/***
+- Description: Edited and taken from GEOM101 Web Group Projecy
 Group Bio End ***/
 
-/*** Chloe body choices***/
 body {
 	background-color: rgb(236, 232, 180); 
 	font-family: Arial;
 }
-/*** Mengyuan input start ***/
+
 .backgroundheader1 { /* the background image for the header on index.html*/
 	background-image: url("img/images.jpg");
 	/* NO-REPEAT - background image is not repeated and only displayed once */
@@ -45,9 +42,7 @@ body {
 	 margin: 0;
 	 box-sizing: border-box;
  }
-/*** Mengyuan input end ***/
 
-/*** Aysha input end ***/
 nav{
 	 width: 100%; 
 	 display: flex;
@@ -178,9 +173,7 @@ nav a:active{
 	}
 }
 
-/*** Aysha input end ***/
 
-/*** Mengyuan input start ***/
 /*Text style for the main titles and the motto*/
 h1 {
     text-align: center;
@@ -197,9 +190,7 @@ h1 {
     font-size: 30px;
     margin: 10px;
 }
-/*** Mengyuan input end ***/
 
-/*** Mengjie input start ***/
 /*Text style for the sub-titles and paragraph*/
 h2{ 
 	font-weight: 700;
@@ -559,9 +550,7 @@ p{
 	font-size: 42px;
 }
 
-/*** Chloe input ends ***/
 
-/*** Mengyuan input start ***/
 /* Responsive design for Pet Profile pics so text goes underneath  when page is smaller*/
 @media screen and (max-width: 800px) {
 	.wrapper {
@@ -581,10 +570,7 @@ p{
       flex: 100%;
     }
   }
-/*** Mengyuan input end ***/
 
-
-/*Mengjie input start*/
 /*Putting the Boxes around to separate 2023 and 2022 Projects and services*/
 .PP2023{
 	border: 5px solid #A9A9A9;
@@ -611,72 +597,9 @@ p{
     margin-top:25px
   }
 
-/*Mengjie input ends*/
 
-/* Hannah input start */
-/* Contact us page by Hannah */
-/* Contact Us Page specific */
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
 
-.contactheader h2{
-  margin-top: 25px;
-  text-align: center;
-}
 
-.contactheader p{
-  text-align: center;
-}
-
-.flex-contactus {
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 15px;
-  text-align: left;
-  margin-top: 50px;
-}
-
-.flex-item-left {
-  flex: 50%;
-  padding: 50px;
-  margin-left: 50px;
-  margin-top: 50px;
-  text-align: left;
-}
-
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Add a background color and some padding around the form */
-  .contact-container {
-    border-radius: 5px;
-    border: 4px solid #ccc;
-    background-color: #f2f2f2;
-    padding: 20px;
-    flex: 50%;
-  }
-/* End of contact us page specific */
-/* Hannah input start */
-
-/* Chloe input start */
 /* Disclaimer ribbon at footer of all pages */
 #disclaimertext {
 	background-color: rgb(65, 10, 55);
@@ -750,8 +673,8 @@ input[type=text], select, textarea {
 
 /* Idea for float image from https://www.youtube.com/watch?v=lgX38fNbxmw - So that the text is on the right-hand side of the image, rather than below */
 /* For all individual pet profiles if wanted! */
-img.PetProfile {
-	float: left;
+img.pics {
+	float: centre;
 	border: 5px solid rgb(65, 10, 55);
 	border-radius: 15px;
 	margin-right: 15px;
