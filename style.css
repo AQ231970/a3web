@@ -513,6 +513,7 @@ p{
   .column {
     width: 100%;
   }
+
 }
 /* Clearfix (clear floats) */
 .row::after {
@@ -566,7 +567,7 @@ p{
 		margin-bottom: 10px;
 	}
   #methodologypic{
-    margin-left: 20px;
+    margin-left: none;
   }
   }
   
