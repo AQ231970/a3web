@@ -38,6 +38,25 @@ body {
 .elink a{padding-left:20px; padding-right:20px; color:black;}
 .elink{margin-bottom:50px;}
 
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
 /* https://www.youtube.com/watch?v=e5wjLZzMmYM, for css template but changed location, positioning type, added hover/active styling, and colours */
  *,
  *:before,
